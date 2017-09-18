@@ -15,7 +15,7 @@ int SCREEN_HEIGHT = 480;
 
 int NUMPOINTS = 0;                            // Keep track of times clicked, number of points plotted
 float radius = 10.0;
-                                              // Point struct to store a 3d point
+                                              // Point type struct to store a 3d point
 typedef struct{
 	float x,y,z;                              // 3D coordinates of a point
 }Point;

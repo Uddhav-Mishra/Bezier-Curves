@@ -17,7 +17,7 @@ vector<pair<int,char> > v[28];
 vector<pair<int,char> > a[28];
 
 
-/*  Globals */
+/*  Globals declaration */
 
 double dim=3.0; /* dimension of orthogonal box */
 char *windowName = "OpenGL screenscasts 7: Drawing in 3d part 2: Cubes, Perspective and Orthogonal Projections";
