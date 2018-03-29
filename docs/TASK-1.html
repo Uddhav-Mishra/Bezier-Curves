@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-red w3-card-2 w3-left-align w3-large">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+      <a class="w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    </li>
+    <li><a href="doc.html" class="w3-padding-large w3-white">Home</a></li>
+    <li class="w3-hide-small"><a href="TASK-1.html" class="w3-padding-large w3-hover-white">TASK 1 & 2</a></li>
+    <li class="w3-hide-small"><a href="TASK-3.html" class="w3-padding-large w3-hover-white">TASK 2 & 3</a></li>
+      </ul>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+    <ul class="w3-navbar w3-left-align w3-large w3-black">
+      <li><a class="w3-padding-large" href="#">Link 1</a></li>
+      <li><a class="w3-padding-large" href="#">Link 2</a></li>
+      <li><a class="w3-padding-large" href="#">Link 3</a></li>
+      <li><a class="w3-padding-large" href="#">Link 4</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center w3-padding-128">
+  <h1 class="w3-margin w3-jumbo">ASSIGNMENT-3</h1>
+  <p class="w3-xlarge">COMPUTER GRAPHICS</p>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>TASK-1 AND TASK-2</h1>
+      <h5 class="w3-padding-32">Task 1: Implement the de Castlejau algorithm for evaluating the entire 2D Bezier curve of degree n. 
+  <P>   
+Task 2: Make your curve editable in the following sense:
+Addition of control Point: Every time we click on the canvas, a new point will be created and a new Bezier curve of appropriate degree (based on the number of points) will be redrawn.</P> 
+ <P>Deletion of control point: We can delete an already existing control point and redraw the new Bezier curve of appropriate degree.</P>
+<P>Control Point Movement: An user can drag any control point of the curve and correspondingly the curve should get update automatically</P></h5>
+
+      <h5 class="w3-padding-32"></h5>
+    </div>
+<div class="w3-third w3-center">
+<img src="https://github.com/Uddhav-Mishra/Bezier-Curves/tree/master/Bezier-Curves-Implementation/images/1AND2.PNG" style="width:524px;height:258px;">
+
+         </div>
+      
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+   
+
+    <div class="w3-twothird">
+      <h1>CRITICAL REGION OF POINT</h1>
+      <h5 class="w3-padding-32">To select a point  for deleting it or moving it to a new position a critical region has been defined for each and every control point of the curve
+      <P>The critical region of the point is small circle of radius 10 with the point as the center</P><h5>
+
+      <p class="w3-text-grey"></p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  
+ <p>Created by Uddhav Mishra</p>
+</footer>
+
+
+
+</body>
+</html>
