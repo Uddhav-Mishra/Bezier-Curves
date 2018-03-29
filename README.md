@@ -1,4 +1,4 @@
-# Computer-Graphics
+# Bezier Curves and Mesh Generation
 
 **Bezier Curves Generation:**
 
